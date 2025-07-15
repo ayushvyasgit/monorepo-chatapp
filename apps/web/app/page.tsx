@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <div style={{height:"100vh" , width:"100vw", backgroundColor:"black",display:"flex",justifyContent:"center",justifyItems:"center",}}>
       <div style= {{margin:"30px"}}>
-        <TextInput onChange={()=>{
-          alert("hi")
-          }} size="big" placeholder="text">
+        <TextInput size="big" placeholder="text">
         </TextInput>
 
         <button onClick={()=>{

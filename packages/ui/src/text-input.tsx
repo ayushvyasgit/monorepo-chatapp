@@ -1,6 +1,6 @@
 interface PropType{
   placeholder:string;size:string;
-  onChange:any;
+  onChange?:any;
 }
 export function TextInput({placeholder,size,onChange}:PropType){
   return <input onChange={onChange} placeholder={placeholder}  

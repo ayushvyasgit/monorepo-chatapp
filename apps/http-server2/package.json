@@ -1,0 +1,17 @@
+{
+  "name": "http-server2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc -b",
+    "dev" : "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "ws": "^8.18.3"
+  },
+  "description": ""
+}
